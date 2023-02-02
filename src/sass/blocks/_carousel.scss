@@ -1,0 +1,17 @@
+.carousel{
+    padding: 70px 0;
+    &__inner{
+        position: relative;
+        width: 750px;
+        height: 580px;
+        margin: 0 auto;
+    }
+}
+.swiper-button-prev{
+    color: red;
+    margin-left: 120px;
+}
+.swiper-button-next{
+    color: red;
+    margin-right: 120px;
+}

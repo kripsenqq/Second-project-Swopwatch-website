@@ -1,0 +1,56 @@
+@media (max-width: 1200px){
+    .advantages{
+        &__title{
+            align-items: center;
+        }
+    }
+}
+@media (max-width: 991px){
+    .promo{
+        &__header{
+            margin-bottom: 0;
+        }
+    }
+    .carousel .swiper{
+        .container{
+            max-width: 800px;
+        }
+    }
+    .swiper{
+        .swiper-button-prev{
+            margin-left: 60px;
+        }
+        .swiper-button-next{
+            margin-right: 60px;
+        }
+    }
+    .comments{
+        hr{
+            width: 750px;
+        }
+    }
+}
+@media (max-width: 767px){
+    * { 
+    border:1px solid red; 
+    box-sizing:border-box; 
+    }
+    .consultation{
+        min-height: 620px;
+    }
+    .advantages{
+        &__icons{
+            max-width: 767px;
+        }
+    }
+    .carousel{
+        &__inner{
+            width: 100%;
+        }
+    }
+    .comments{
+        hr{
+            width: 600px;
+        }
+    }
+}
