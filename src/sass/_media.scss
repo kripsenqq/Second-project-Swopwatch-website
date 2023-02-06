@@ -7,7 +7,7 @@
 }
 @media (max-width: 991px){
     .promo{
-        &__header{
+        .promo__header{
             margin-bottom: 0;
         }
     }
@@ -29,28 +29,66 @@
             width: 750px;
         }
     }
+    .footer{
+        .footer__info{
+            width: 250px;
+            height: 150px;
+            padding: 20px 53px 70px 58px;
+        }
+    }
 }
 @media (max-width: 767px){
-    * { 
-    border:1px solid red; 
-    box-sizing:border-box; 
-    }
-    .consultation{
-        min-height: 620px;
-    }
-    .advantages{
-        &__icons{
-            max-width: 767px;
+        * { 
+        border:1px solid red; 
+        box-sizing:border-box; 
+        } 
+        .promo{
+            .header{
+                .header__logo{
+                    width: 200px;
+                }
+                .header__official{
+                    font-size: 12px;
+                    span{
+                        font-size: 16px;
+                    }
+                }
+            }
+            .promo__wrapper{
+                .promo__header{
+                    font-size: 35px;
+                    margin-top: 10px;
+                }
+                .button_main{
+                    margin-top: 50px;
+                }
+            }
+        }
+        .consultation{
+            padding-top: 50px;
+            min-height: 610px;
+            .title_left{
+                width: 540px;
+                font-size: 22px;
+            }
+            h3{
+                margin-top: 35px;
+                width: 440px;
+            }
+        }
+        .advantages{
+            .advantages__icons{
+                max-width: 767px;
+            }
+        }
+        .carousel{
+            .carousel__inner{
+                width: 100%;
+            }
+        }
+        .comments{
+            hr{
+                min-width: 600px;
+            }
         }
     }
-    .carousel{
-        &__inner{
-            width: 100%;
-        }
-    }
-    .comments{
-        hr{
-            width: 600px;
-        }
-    }
-}

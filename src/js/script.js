@@ -100,10 +100,12 @@ var swiper = new Swiper(".slide-content", {
 
     //PageUP Скролл
     $(window).scroll(function() {
-        if ($(this).scrolltop() > 1600) {
+        if ($(this).scrollTop() > 1600) {
             $('.pageup').fadeIn();
         }
         else {
             $('.pageup').fadeOut();
         }
     });
+
+new WOW().init();
