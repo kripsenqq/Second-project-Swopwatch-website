@@ -1,6 +1,7 @@
 .promo {
     min-height: 600px;
-    padding: 21px 0 43px 0;
+    padding-top: 21px;
+    padding-bottom: 43px;
     background: url(../img/firstbg.png) center (center/cover) no-repeat;
     &__wrapper{
         display: flex;
