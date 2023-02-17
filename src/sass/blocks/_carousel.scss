@@ -1,4 +1,5 @@
 .carousel{
+    z-index: 1;
     padding: 70px 0;
     &__inner{
         position: relative;
@@ -16,8 +17,9 @@
 
 .swiper-wrapper{
     width: 750px;
-    height: 580px;
+    height: 620px;
 }
+
 .swiper{
     padding: 70px 20px 0 20px;
     img{

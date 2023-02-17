@@ -79,26 +79,7 @@ var swiper = new Swiper(".slide-content", {
     validateForms('#consultation-form');
     validateForms('#consultation form');
     validateForms('#order form');
-
-//Тут должна быть отправка заявки на почту, но мне впадлу(но код все равно есть)
-/*     $('input[name=phone1]').mask("+7 (999)-99-99");
-
-    $('form').submit(function(e) {
-        e.preventDefault();
-        $.ajax({
-            type:"POST",
-            url: "mailer/...",
-            data: $(this).serialize()
-        }).done(function(){
-            $(this).find("input").val("");
-
-
-            $('form').trigger('reset');
-        })
-        return false;
-    }) */
-
-    //PageUP Скролл
+    
     $(window).scroll(function() {
         if ($(this).scrollTop() > 1600) {
             $('.pageup').fadeIn();
